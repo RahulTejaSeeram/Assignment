@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Info Table</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>User Information Form</h1>
+    <div class="form-group">
+      <input type="text" id="name" placeholder="Enter Name of the person"/>
+      <input type="number" id="age" placeholder="Enter Age of the person" />
+      <input type="tel" id="phone" placeholder="Enter Phone Number of the person" />
+      <button id="addBtn">Add</button>
+    </div>
+
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Phone Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows will be added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
